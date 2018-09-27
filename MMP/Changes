@@ -1,0 +1,4 @@
+ALTER TABLE `mmp`.`holiday_details` 
+DROP FOREIGN KEY `FK_hd_holidayYear`;
+ALTER TABLE `mmp`.`holiday_details` 
+DROP INDEX `FK_hd_holidayYear_idx` ;
